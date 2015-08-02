@@ -1,4 +1,4 @@
-The binding includes the follow modules from SFML
+The binding includes the following modules from SFML
 * Graphics
 * Network
 * System
