@@ -5,6 +5,7 @@ The binding includes the follow modules from SFML
 * Window
 
 Here is an example of how to load it up (depends on http://scrat.sourceforge.net/)
+
     // Initialize and register the sf namespace in the VM
     Sqrat::Table sfNamespace(v);
     Sqrat::RootTable(v).Bind(_SC("sf"), sfNamespace);
