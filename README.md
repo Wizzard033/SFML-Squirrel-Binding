@@ -59,5 +59,7 @@ Here is an example of how to load it up (depends on http://scrat.sourceforge.net
     RegisterSfmlTcpSocketLib(v, sfNamespace);
     RegisterSfmlUdpSocketLib(v, sfNamespace);
 
+It helps to redirect the SFML error stream to a log file for diagnosing errors.
+
 
 ** This binding will not be maintained by its developer, but merge requests will be reviewed **
